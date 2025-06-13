@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora MVA Ajustado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Calculadora MVA Ajustado</h1>
+  
+  <label for="mvaST">MVA-ST Original (%)</label>
+  <input type="number" id="mvaST" placeholder="ex: 40">
+
+  <label for="alqInter">ALQ Interestadual (%)</label>
+  <input type="number" id="alqInter" placeholder="ex: 12">
+
+  <label for="alqIntra">ALQ Interna (%)</label>
+  <input type="number" id="alqIntra" placeholder="ex: 18">
+
+  <button onclick="calcularMVA()">Calcular</button>
+
+  <div id="resultado"></div>
+     <script src="script.js"></script>
+</body>
+</html>
